@@ -8,8 +8,8 @@
 }
 
 :root{
-    --color: crimson;
-    --dark: #333;
+    --color: rgb(20, 220, 137);
+    --dark: #7812a0;
 }
 
 h1, h3{
@@ -292,7 +292,7 @@ font-size: 26px;
 
 .about .image{
     flex:1 1 40rem;
-    height:50rem;
+    height:100rem;
     background-size: cover;
     background-position: center;
     background-blend-mode: screen;
@@ -391,7 +391,7 @@ font-size: 26px;
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: rgb(218, 76, 20);
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
