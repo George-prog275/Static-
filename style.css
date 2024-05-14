@@ -684,6 +684,10 @@ font-size: 1.7rem;
     .footer .credit{
     font-size: 1rem;
     }
+    .copyright {
+        justify-content: center;
+    }
+    
 }
 
 @media all and (max-width:768px){
@@ -740,6 +744,7 @@ font-size: 1.7rem;
     .services .title {
         font-size: 4rem;
         margin: 4rem 0;
+        margin-right: 20px;
     }
 
     .services .serv-content .card .text{
@@ -770,6 +775,11 @@ font-size: 1.7rem;
          .message .row .image {
             display: none;
         }
+
+        .copyright {
+            text-align: center;
+        }
+        
 }
 
 @media all and (max-width:500px){
@@ -856,4 +866,5 @@ font-size: 1.7rem;
         width: 30rem;
         margin: 0.5rem auto;
       }
+
 }
